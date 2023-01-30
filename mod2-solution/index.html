@@ -1,163 +1,167 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Single Responsive Page for Module2 Coding Assignment!</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+  <style>
 
 /********** Base styles **********/
 * {
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-/************ Simple Responsive Framework************/
+/* Simple Responsive Framework. */
 .row {
-	width:100%;
-}
-/*********** This is for Desktop Device Only ************/
-@media (min-width:992px) {
-	.col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
-		float: left;
-		border:1px solide yellow;
-	}
-	.col-dt-1{
-		width:8.33%;
-	}
-	.col-dt-2{
-		width:16.66%;
-	}
-	.col-dt-3{
-		width:25%;
-	}
-	.col-dt-4{
-		width:33.33%;
-	}
-	.col-dt-5{
-		width:41.66%;
-	}
-    .col-dt-6{
-    	width:50%;
-    }
-    .col-dt-7{
-    	width:58.33%;
-    }
-    .col-dt-8{
-    	width:66.66%;
-    }
-    .col-dt-9{
-    	width:74.99%;
-    }
-    .col-dt-10{
-    	width:83.33%;
-    }
-    .col-dt-11{
-    	width:91.66%;
-    }
-    .col-dt-12{
-    	width:100%;
-    }
-}
-/************* This is for Tablet Devices Only **************/
-@media (min-width:768px) and (max-width:991){
-.col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12{
- float: left;
- border:1px solide green;
-}
-.col-tb-1{
-	width:8.33%;
-}
- .col-tb-2{
- 	width:16.66%;
- }
- .col-tb-3{
- 	width:25%;
- }
- .col-tb-4{
- 	width:33.33%;
- }
- .col-tb-5{
- 	width:41.66%
- }
- .col-tb-6{
- 	width:50%;
- }
- .col-tb-7{
- 	width:58.33%;
- }
- .col-tb-8{
-    width:66.66%;
- }
- .col-tb-9{
- 	width:74.99%;
- }
- .col-tb-10{
- 	width:83.33%;
- }
- .col-tb-11{
- 	width:91.66%;
- }
- .col-tb-12{
- 	width:100%;
-}
+  width: 100%;
 }
 
-/************* This is for Mobile Devce Only *****************/
-@media(max-width:767){
- .col-mb-1, .col-mb-2, .col-mb-3, .col-mb-4, .col-mb-5, .col-mb-6, .col-mb-7, .col-mb-8, .col-mb-9, .col-mb-10, .col-mb-11, .col-mb-12{
- float: left;
- border:1px solide green;
+/********** This is for Desktop Device Only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
 }
-.col-mb-1{
-	width:8.33%;
+
+/********** This is for Tablet Device only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
 }
-.com-mb-2{
-	width:16.66%;
+/********** This is for Mobile Device only **********/
+@media (min-width: 767px){
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
 }
-.col-mb-3{
-	width:25%;
-}
-.col-mb-4{
-	width:33.33%;
-}
-.col-mb-5{
-	width:41.66%;
-}
-.col-mb-6{
-	width:50%;
-}
-.col-mb-7{
-	widht:58.33%;
-}
-.col-mb-8{
-	width:66.66%;
-}
-.col-mb-9{
-	width:74.99%;
-}
-.col-mb-10{
-	widht:83.33%;
-}
-.col-mb-11{
-	width:91.66%;
-}
-.col-mb-12{
-	width:100%;
-}
-}
+
 </style>
 </head>
 <body>
 <h1>Single Responsive Page for Module2 Coding Assignment!</h1>
+
 <div class="row">
-	<dive class="col-dt-3 col-md-6"><p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p1></div>
-		<div class="col-dt-3 col-md-6"><p2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p2></div>
-		<div class="col-dt-3 col-md-6"><p3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p3></div>
-</dive>
+  <div class="col-lg-3 col-md-6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p></div>
+  <div class="col-lg-3 col-md-6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p></div>
+  <div class="col-lg-3 col-md-6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p></div>
+
+</div>
 
 </body>
 </html>
