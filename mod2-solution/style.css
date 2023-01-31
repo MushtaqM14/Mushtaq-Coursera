@@ -1,18 +1,18 @@
-p {
+  p {
 	border:2px solid black;
-	background-color: gray;
+	background-color: Yellow;
 	width: 100%;
 	height:150%;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: Calibri;
-    color:white;
+	font-family: New Times Roman;
+    color:black;
+    font-size:17px;
 }
 
-
 h1{
-  margin: 20px;
-  color:blue;
+  margin: 15px;
+  color:green;
   font-size:30px;
-  font-family:Calibri;
+  font-family:New Times Roman;
 }
